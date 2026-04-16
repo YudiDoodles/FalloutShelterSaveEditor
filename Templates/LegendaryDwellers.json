@@ -1,0 +1,1370 @@
+{
+    "dwellers": [
+        { //
+            "name": "Abraham",
+            "lastName": "Washington",
+            "gender": 2
+        },
+        {
+            "name": "Allistair",
+            "lastName": "Tenpenny",
+            "gender": 2,
+            "stats": {
+                "stats": [
+                    {
+                        "value": 1,
+                        "mod": 0,
+                        "exp": 0
+                    },
+                    {
+                        "value": 2,
+                        "mod": 4,
+                        "exp": 3600
+                    },
+                    {
+                        "value": 9,
+                        "mod": 0,
+                        "exp": 432000
+                    },
+                    {
+                        "value": 2,
+                        "mod": 0,
+                        "exp": 3600
+                    },
+                    {
+                        "value": 9,
+                        "mod": 0,
+                        "exp": 432000
+                    },
+                    {
+                        "value": 7,
+                        "mod": 0,
+                        "exp": 201600
+                    },
+                    {
+                        "value": 2,
+                        "mod": 3,
+                        "exp": 3600
+                    },
+                    {
+                        "value": 9,
+                        "mod": 0,
+                        "exp": 432000
+                    }
+                ]
+            },
+            "skinColor": 4294899187,
+            "hairColor": 4294901502,
+            "outfitColor": 4294967295,
+            "uniqueData": "L_AlistairTenpenny",
+            "hair": "07",
+            "faceMask": "wrinkles",
+            "equipedOutfit": {
+                "id": "AlistairSpecial",
+                "type": "Outfit",
+                "hasBeenAssigned": false,
+                "hasRandonWeaponBeenAssigned": false
+            },
+            "equipedWeapon": {
+                "id": "SniperRifle_VictoryRifle",
+                "type": "Weapon",
+                "hasBeenAssigned": false,
+                "hasRandonWeaponBeenAssigned": false
+            }
+        },
+        { //
+            "name": "Amata",
+            "lastName": "",
+            "gender": 1
+        },
+        { //
+            "name": "Bittercup",
+            "lastName": "",
+            "gender": 1
+        },
+        { //
+            "name": "Butch",
+            "lastName": "",
+            "gender": 2
+        },
+        { //
+            "name": "Betty",
+            "lastName": "",
+            "gender": 1
+        },
+        {
+            "name": "Chet",
+            "lastName": "",
+            "gender": 2,
+            "stats": {
+                "stats": [
+                    {
+                        "value": 1,
+                        "mod": 0,
+                        "exp": 0
+                    },
+                    {
+                        "value": 7,
+                        "mod": 0,
+                        "exp": 201600
+                    },
+                    {
+                        "value": 4,
+                        "mod": 3,
+                        "exp": 36000
+                    },
+                    {
+                        "value": 5,
+                        "mod": 0,
+                        "exp": 72000
+                    },
+                    {
+                        "value": 7,
+                        "mod": 0,
+                        "exp": 201600
+                    },
+                    {
+                        "value": 5,
+                        "mod": 0,
+                        "exp": 72000
+                    },
+                    {
+                        "value": 5,
+                        "mod": 0,
+                        "exp": 72000
+                    },
+                    {
+                        "value": 7,
+                        "mod": 2,
+                        "exp": 201600
+                    }
+                ]
+            },
+            "skinColor": 4294961109,
+            "hairColor": 4287062335,
+            "outfitColor": 4294967295,
+            "uniqueData": "L_Chet",
+            "hair": "hair_Chet",
+            "equipedOutfit": {
+                "id": "Vault33Suit",
+                "type": "Outfit",
+                "hasBeenAssigned": false,
+                "hasRandonWeaponBeenAssigned": false
+            },
+            "equipedWeapon": {
+                "id": "Melee_BaseballBat",
+                "type": "Weapon",
+                "hasBeenAssigned": false,
+                "hasRandonWeaponBeenAssigned": false
+            }
+        },
+        { //
+            "name": "Cooper",
+            "lastName": "Howard",
+            "gender": 2
+        },
+        { //
+            "name": "Colonel",
+            "lastName": "Autumn",
+            "gender": 2
+        },
+        { //
+            "name": "Confessor",
+            "lastName": "Cromwell",
+            "gender": 2
+        },
+        {
+            "name": "Dr. Li",
+            "lastName": "",
+            "gender": 1,
+            "stats": {
+                "stats": [
+                    {
+                        "value": 1,
+                        "mod": 0,
+                        "exp": 0
+                    },
+                    {
+                        "value": 4,
+                        "mod": 0,
+                        "exp": 36000
+                    },
+                    {
+                        "value": 6,
+                        "mod": 0,
+                        "exp": 126000
+                    },
+                    {
+                        "value": 6,
+                        "mod": 0,
+                        "exp": 126000
+                    },
+                    {
+                        "value": 7,
+                        "mod": 0,
+                        "exp": 201600
+                    },
+                    {
+                        "value": 9,
+                        "mod": 7,
+                        "exp": 432000
+                    },
+                    {
+                        "value": 4,
+                        "mod": 0,
+                        "exp": 36000
+                    },
+                    {
+                        "value": 4,
+                        "mod": 0,
+                        "exp": 36000
+                    }
+                ]
+            },
+            "skinColor": 4294898161,
+            "hairColor": 4281280544,
+            "outfitColor": 4294967295,
+            "uniqueData": "L_Dr. Li",
+            "hair": "16",
+            "equipedOutfit": {
+                "id": "LabCoat_Expert",
+                "type": "Outfit",
+                "hasBeenAssigned": false,
+                "hasRandonWeaponBeenAssigned": false
+            }
+        },
+        { //
+            "name": "Ed the Ghoul",
+            "lastName": "",
+            "gender": 2
+        },
+        { //
+            "name": "Elder",
+            "lastName": "Lyons",
+            "gender": 2
+        },
+        { //
+            "name": "Eulogy",
+            "lastName": "Jones",
+            "gender": 2
+        },
+        { //
+            "name": "Hank",
+            "lastName": "",
+            "gender": 2
+        },
+        {
+            "name": "Hank",
+            "lastName": "(New Vegas)",
+            "gender": 2,
+            "stats": {
+                "stats": [
+                    {
+                        "value": 1,
+                        "mod": 0,
+                        "exp": 0
+                    },
+                    {
+                        "value": 6,
+                        "mod": 0,
+                        "exp": 126000
+                    },
+                    {
+                        "value": 6,
+                        "mod": 3,
+                        "exp": 126000
+                    },
+                    {
+                        "value": 5,
+                        "mod": 2,
+                        "exp": 72000
+                    },
+                    {
+                        "value": 7,
+                        "mod": 0,
+                        "exp": 201600
+                    },
+                    {
+                        "value": 7,
+                        "mod": 0,
+                        "exp": 201600
+                    },
+                    {
+                        "value": 4,
+                        "mod": 0,
+                        "exp": 36000
+                    },
+                    {
+                        "value": 5,
+                        "mod": 3,
+                        "exp": 72000
+                    }
+                ]
+            },
+            "skinColor": 4294961109,
+            "hairColor": 4290227621,
+            "outfitColor": 4294967295,
+            "uniqueData": "L_HankNewVegas",
+            "hair": "hair_Hank",
+            "equipedOutfit": {
+                "id": "HanksPowerArmor",
+                "type": "Outfit",
+                "hasBeenAssigned": false,
+                "hasRandonWeaponBeenAssigned": false
+            },
+            "equipedWeapon": {
+                "id": "T60Pistol",
+                "type": "Weapon",
+                "hasBeenAssigned": false,
+                "hasRandonWeaponBeenAssigned": false
+            }
+        },
+        { //
+            "name": "Harkness",
+            "lastName": "",
+            "gender": 2
+        },
+        { //
+            "name": "James",
+            "lastName": "",
+            "gender": 2
+        },
+        { //
+            "name": "Jericho",
+            "lastName": "",
+            "gender": 2
+        },
+        {
+            "name": "Legate",
+            "lastName": "",
+            "gender": 2,
+            "stats": {
+                "stats": [
+                    {
+                        "value": 1,
+                        "mod": 0,
+                        "exp": 0
+                    },
+                    {
+                        "value": 9,
+                        "mod": 4,
+                        "exp": 432000
+                    },
+                    {
+                        "value": 6,
+                        "mod": 0,
+                        "exp": 126000
+                    },
+                    {
+                        "value": 8,
+                        "mod": 6,
+                        "exp": 302400
+                    },
+                    {
+                        "value": 6,
+                        "mod": 4,
+                        "exp": 126000
+                    },
+                    {
+                        "value": 3,
+                        "mod": 0,
+                        "exp": 14400
+                    },
+                    {
+                        "value": 4,
+                        "mod": 0,
+                        "exp": 36000
+                    },
+                    {
+                        "value": 4,
+                        "mod": 0,
+                        "exp": 36000
+                    }
+                ]
+            },
+            "skinColor": 4294958820,
+            "hairColor": 4294958738,
+            "outfitColor": 4294967295,
+            "uniqueData": "L_Legate",
+            "hair": "hair_Legate",
+            "equipedOutfit": {
+                "id": "LegatesArmor",
+                "type": "Outfit",
+                "hasBeenAssigned": false,
+                "hasRandonWeaponBeenAssigned": false
+            },
+            "equipedWeapon": {
+                "id": "Melee_RaiderSword",
+                "type": "Weapon",
+                "hasBeenAssigned": false,
+                "hasRandonWeaponBeenAssigned": false
+            }
+        },
+        { //
+            "name": "Luc",
+            "lastName": "The Human",
+            "gender": 2
+        },
+        { //
+            "name": "Lucas",
+            "lastName": "Simms",
+            "gender": 2
+        },
+        {
+            "name": "Lucy",
+            "lastName": "",
+            "gender": 1,
+            "stats": {
+                "stats": [
+                    {
+                        "value": 1,
+                        "mod": 0,
+                        "exp": 0
+                    },
+                    {
+                        "value": 4,
+                        "mod": 0,
+                        "exp": 36000
+                    },
+                    {
+                        "value": 7,
+                        "mod": 0,
+                        "exp": 201600
+                    },
+                    {
+                        "value": 6,
+                        "mod": 0,
+                        "exp": 126000
+                    },
+                    {
+                        "value": 5,
+                        "mod": 0,
+                        "exp": 72000
+                    },
+                    {
+                        "value": 6,
+                        "mod": 0,
+                        "exp": 126000
+                    },
+                    {
+                        "value": 5,
+                        "mod": 2,
+                        "exp": 72000
+                    },
+                    {
+                        "value": 7,
+                        "mod": 2,
+                        "exp": 201600
+                    }
+                ]
+            },
+            "skinColor": 4294962903,
+            "hairColor": 4284165922,
+            "outfitColor": 4294967295,
+            "uniqueData": "L_Lucy",
+            "hair": "hair_Lucy",
+            "equipedOutfit": {
+                "id": "LucysVaultSuit",
+                "type": "Outfit",
+                "hasBeenAssigned": false,
+                "hasRandonWeaponBeenAssigned": false
+            },
+            "equipedWeapon": {
+                "id": "TranqPistol",
+                "type": "Weapon",
+                "hasBeenAssigned": false,
+                "hasRandonWeaponBeenAssigned": false
+            }
+        },
+        {
+            "name": "Lucy",
+            "lastName": "(New Vegas)",
+            "gender": 1,
+            "stats": {
+                "stats": [
+                    {
+                        "value": 1,
+                        "mod": 0,
+                        "exp": 0
+                    },
+                    {
+                        "value": 4,
+                        "mod": 0,
+                        "exp": 36000
+                    },
+                    {
+                        "value": 7,
+                        "mod": 1,
+                        "exp": 201600
+                    },
+                    {
+                        "value": 6,
+                        "mod": 5,
+                        "exp": 126000
+                    },
+                    {
+                        "value": 5,
+                        "mod": 0,
+                        "exp": 72000
+                    },
+                    {
+                        "value": 6,
+                        "mod": 0,
+                        "exp": 126000
+                    },
+                    {
+                        "value": 5,
+                        "mod": 0,
+                        "exp": 72000
+                    },
+                    {
+                        "value": 7,
+                        "mod": 2,
+                        "exp": 201600
+                    }
+                ]
+            },
+            "skinColor": 4294962903,
+            "hairColor": 4284165922,
+            "outfitColor": 4294967295,
+            "uniqueData": "L_LucyNewVegas",
+            "hair": "hair_Lucy",
+            "equipedOutfit": {
+                "id": "MojaveWastelandSurvivor",
+                "type": "Outfit",
+                "hasBeenAssigned": false,
+                "hasRandonWeaponBeenAssigned": false
+            },
+            "equipedWeapon": {
+                "id": "Shotgun",
+                "type": "Weapon",
+                "hasBeenAssigned": false,
+                "hasRandonWeaponBeenAssigned": false
+            }
+        },
+        {
+            "name": "Ma June",
+            "lastName": "",
+            "gender": 1,
+            "stats": {
+                "stats": [
+                    {
+                        "value": 1,
+                        "mod": 0,
+                        "exp": 0
+                    },
+                    {
+                        "value": 5,
+                        "mod": 0,
+                        "exp": 72000
+                    },
+                    {
+                        "value": 7,
+                        "mod": 2,
+                        "exp": 201600
+                    },
+                    {
+                        "value": 5,
+                        "mod": 0,
+                        "exp": 72000
+                    },
+                    {
+                        "value": 7,
+                        "mod": 0,
+                        "exp": 201600
+                    },
+                    {
+                        "value": 6,
+                        "mod": 0,
+                        "exp": 126000
+                    },
+                    {
+                        "value": 4,
+                        "mod": 0,
+                        "exp": 36000
+                    },
+                    {
+                        "value": 6,
+                        "mod": 2,
+                        "exp": 126000
+                    }
+                ]
+            },
+            "skinColor": 4293510824,
+            "hairColor": 4294967295,
+            "outfitColor": 4294967295,
+            "uniqueData": "L_Ma June",
+            "hair": "hair_Ma_June",
+            "faceMask": "glasses_Ma_June",
+            "equipedOutfit": {
+                "id": "MaJuneJacket",
+                "type": "Outfit",
+                "hasBeenAssigned": false,
+                "hasRandonWeaponBeenAssigned": false
+            },
+            "equipedWeapon": {
+                "id": "HuntingRifle_Enhanced",
+                "type": "Weapon",
+                "hasBeenAssigned": false,
+                "hasRandonWeaponBeenAssigned": false
+            }
+        },
+        {
+            "name": "Maximus",
+            "lastName": "",
+            "gender": 2,
+            "stats": {
+                "stats": [
+                    {
+                        "value": 1,
+                        "mod": 0,
+                        "exp": 0
+                    },
+                    {
+                        "value": 7,
+                        "mod": 2,
+                        "exp": 201600
+                    },
+                    {
+                        "value": 6,
+                        "mod": 0,
+                        "exp": 126000
+                    },
+                    {
+                        "value": 6,
+                        "mod": 0,
+                        "exp": 126000
+                    },
+                    {
+                        "value": 5,
+                        "mod": 2,
+                        "exp": 72000
+                    },
+                    {
+                        "value": 4,
+                        "mod": 0,
+                        "exp": 36000
+                    },
+                    {
+                        "value": 7,
+                        "mod": 4,
+                        "exp": 201600
+                    },
+                    {
+                        "value": 5,
+                        "mod": 4,
+                        "exp": 72000
+                    }
+                ]
+            },
+            "skinColor": 4286339388,
+            "hairColor": 4280623644,
+            "outfitColor": 4294967295,
+            "uniqueData": "L_Max",
+            "hair": "03",
+            "equipedOutfit": {
+                "id": "MaximusJacket",
+                "type": "Outfit",
+                "hasBeenAssigned": false,
+                "hasRandonWeaponBeenAssigned": false
+            },
+            "equipedWeapon": {
+                "id": "T60Pistol",
+                "type": "Weapon",
+                "hasBeenAssigned": false,
+                "hasRandonWeaponBeenAssigned": false
+            }
+        },
+        { //
+            "name": "Moira",
+            "lastName": "Brown",
+            "gender": 1
+        },
+        { //
+            "name": "Moldaver",
+            "lastName": "",
+            "gender": 1
+        },
+        { //
+            "name": "Mr. Burke",
+            "lastName": "",
+            "gender": 2
+        },
+        {
+            "name": "Mr. House",
+            "lastName": "",
+            "gender": 2,
+            // Get base stat numbers elsewhere
+            //2 5 6 9 9 2 7
+            "stats": {
+                "stats": [
+                    {
+                        "value": 1,
+                        "mod": 0,
+                        "exp": 0
+                    },
+                    {
+                        "value": 7,
+                        "mod": 0,
+                        "exp": 205293.8
+                    },
+                    {
+                        "value": 5,
+                        "mod": 0,
+                        "exp": 72000
+                    },
+                    {
+                        "value": 6,
+                        "mod": 0,
+                        "exp": 126000
+                    },
+                    {
+                        "value": 9,
+                        "mod": 4,
+                        "exp": 432000
+                    },
+                    {
+                        "value": 9,
+                        "mod": 2,
+                        "exp": 432000
+                    },
+                    {
+                        "value": 5,
+                        "mod": 0,
+                        "exp": 78690.64
+                    },
+                    {
+                        "value": 7,
+                        "mod": 2,
+                        "exp": 201600
+                    }
+                ]
+            },
+            "skinColor": 4294958043,
+            "hairColor": 4280165157,
+            "outfitColor": 4294967295,
+            "uniqueData": "L_MrHouse",
+            "hair": "hair_Mr House",
+            "faceMask": "Mr House mustache",
+            "equipedOutfit": {
+                "id": "MrHousesSuit",
+                "type": "Outfit",
+                "hasBeenAssigned": false,
+                "hasRandonWeaponBeenAssigned": false
+            }
+        },
+        {
+            "name": "Norm",
+            "lastName": "",
+            "gender": 2,
+            //Get stats from elsewhere
+            //3 8 4 4 9 6 6
+            "stats": {
+                "stats": [
+                    {
+                        "value": 1,
+                        "mod": 0,
+                        "exp": 0
+                    },
+                    {
+                        "value": 8,
+                        "mod": 0,
+                        "exp": 302489.2
+                    },
+                    {
+                        "value": 8,
+                        "mod": 3,
+                        "exp": 302400
+                    },
+                    {
+                        "value": 6,
+                        "mod": 0,
+                        "exp": 133081.3
+                    },
+                    {
+                        "value": 9,
+                        "mod": 0,
+                        "exp": 432081.7
+                    },
+                    {
+                        "value": 9,
+                        "mod": 0,
+                        "exp": 432000
+                    },
+                    {
+                        "value": 6,
+                        "mod": 0,
+                        "exp": 126000
+                    },
+                    {
+                        "value": 6,
+                        "mod": 2,
+                        "exp": 126000
+                    }
+                ]
+            },
+            "skinColor": 4294962903,
+            "hairColor": 4284107084,
+            "outfitColor": 4294967295,
+            "uniqueData": "L_Norm",
+            "hair": "hair_Norm",
+            "equipedOutfit": {
+                "id": "Vault33Suit",
+                "type": "Outfit",
+                "hasBeenAssigned": false,
+                "hasRandonWeaponBeenAssigned": false
+            },
+            "equipedWeapon": {
+                "id": "TranqPistol",
+                "type": "Weapon",
+                "hasBeenAssigned": false,
+                "hasRandonWeaponBeenAssigned": false
+            }
+        },
+        { //
+            "name": "Old Longfellow",
+            "lastName": "",
+            "gender": 2
+        },
+        { //
+            "name": "Paladin",
+            "lastName": "",
+            "gender": 2
+        },
+        {
+            "name": "Piper",
+            "lastName": "",
+            "gender": 1,
+            "stats": {
+                "stats": [
+                    {
+                        "value": 1,
+                        "mod": 0,
+                        "exp": 0
+                    },
+                    {
+                        "value": 4,
+                        "mod": 0,
+                        "exp": 36000
+                    },
+                    {
+                        "value": 4,
+                        "mod": 2,
+                        "exp": 36000
+                    },
+                    {
+                        "value": 9,
+                        "mod": 2,
+                        "exp": 432000
+                    },
+                    {
+                        "value": 6,
+                        "mod": 0,
+                        "exp": 126000
+                    },
+                    {
+                        "value": 7,
+                        "mod": 0,
+                        "exp": 201600
+                    },
+                    {
+                        "value": 4,
+                        "mod": 2,
+                        "exp": 36000
+                    },
+                    {
+                        "value": 4,
+                        "mod": 2,
+                        "exp": 36000
+                    }
+                ]
+            },
+            "skinColor": 4294967295,
+            "hairColor": 4294949520,
+            "outfitColor": 4294967295,
+            "uniqueData": "L_Piper",
+            "hair": "24",
+            "equipedOutfit": {
+                "id": "PiperSpecial",
+                "type": "Outfit",
+                "hasBeenAssigned": false,
+                "hasRandonWeaponBeenAssigned": false
+            }
+        },
+        { //
+            "name": "Preston",
+            "lastName": "Garvey",
+            "gender": 2
+        },
+        { //
+            "name": "Sarah",
+            "lastName": "Lyons",
+            "gender": 1
+        },
+        { //
+            "name": "Scribe Rothchild",
+            "lastName": "",
+            "gender": 2
+        },
+        {
+            "name": "Scribe Valdez",
+            "lastName": "",
+            "gender": 1,
+            "stats": {
+                "stats": [
+                    {
+                        "value": 1,
+                        "mod": 0,
+                        "exp": 0
+                    },
+                    {
+                        "value": 5,
+                        "mod": 0,
+                        "exp": 72000
+                    },
+                    {
+                        "value": 7,
+                        "mod": 0,
+                        "exp": 201600
+                    },
+                    {
+                        "value": 5,
+                        "mod": 0,
+                        "exp": 72000
+                    },
+                    {
+                        "value": 5,
+                        "mod": 3,
+                        "exp": 72000
+                    },
+                    {
+                        "value": 8,
+                        "mod": 0,
+                        "exp": 302400
+                    },
+                    {
+                        "value": 6,
+                        "mod": 2,
+                        "exp": 126000
+                    },
+                    {
+                        "value": 4,
+                        "mod": 0,
+                        "exp": 36000
+                    }
+                ]
+            },
+            "skinColor": 4292130196,
+            "hairColor": 4284824346,
+            "outfitColor": 4294197569,
+            "uniqueData": "L_ScribeValdez",
+            "hair": "16",
+            "equipedOutfit": {
+                "id": "ScribeRobe",
+                "type": "Outfit",
+                "hasBeenAssigned": false,
+                "hasRandonWeaponBeenAssigned": false
+            }
+        },
+        {
+            "name": "Snake Oil Salesman",
+            "lastName": "",
+            "gender": 2,
+            "stats": {
+                "stats": [
+                    {
+                        "value": 1,
+                        "mod": 0,
+                        "exp": 0
+                    },
+                    {
+                        "value": 4,
+                        "mod": 0,
+                        "exp": 36000
+                    },
+                    {
+                        "value": 5,
+                        "mod": 2,
+                        "exp": 72000
+                    },
+                    {
+                        "value": 5,
+                        "mod": 2,
+                        "exp": 72000
+                    },
+                    {
+                        "value": 8,
+                        "mod": 2,
+                        "exp": 302400
+                    },
+                    {
+                        "value": 8,
+                        "mod": 0,
+                        "exp": 302400
+                    },
+                    {
+                        "value": 4,
+                        "mod": 2,
+                        "exp": 36000
+                    },
+                    {
+                        "value": 6,
+                        "mod": 0,
+                        "exp": 126000
+                    }
+                ]
+            },
+            "skinColor": 4293511599,
+            "hairColor": 4287525698,
+            "outfitColor": 4294967295,
+            "uniqueData": "L_Snake Oil Salesman",
+            "hair": "17",
+            "faceMask": "f_hair_11",
+            "equipedOutfit": {
+                "id": "SleazySuit",
+                "type": "Outfit",
+                "hasBeenAssigned": false,
+                "hasRandonWeaponBeenAssigned": false
+            }
+            // Weapon 10mm pistol
+        },
+        {
+            "name": "Star Paladin Cross",
+            "lastName": "",
+            "gender": 1,
+            //Get stats
+            //7 8 4 8 4 6 3
+            "stats": {
+                "stats": [
+                    {
+                        "value": 1,
+                        "mod": 0,
+                        "exp": 0
+                    },
+                    {
+                        "value": 7,
+                        "mod": 4,
+                        "exp": 201600
+                    },
+                    {
+                        "value": 8,
+                        "mod": 3,
+                        "exp": 302400
+                    },
+                    {
+                        "value": 8,
+                        "mod": 0,
+                        "exp": 302489.2
+                    },
+                    {
+                        "value": 8,
+                        "mod": 0,
+                        "exp": 302400
+                    },
+                    {
+                        "value": 8,
+                        "mod": 0,
+                        "exp": 302483.4
+                    },
+                    {
+                        "value": 6,
+                        "mod": 0,
+                        "exp": 132067
+                    },
+                    {
+                        "value": 8,
+                        "mod": 0,
+                        "exp": 302486.7
+                    }
+                ]
+            },
+            "skinColor": 4285618245,
+            "hairColor": 4292988613,
+            "outfitColor": 4294967295,
+            "uniqueData": "L_Star Paladin Cross",
+            "hair": "23",
+            "equipedOutfit": {
+                "id": "PowerArmor_51f",
+                "type": "Outfit",
+                "hasBeenAssigned": false,
+                "hasRandonWeaponBeenAssigned": false
+            },
+            "equipedWeapon": {
+                "id": "LaserPistol_SmugglersEnd",
+                "type": "Weapon",
+                "hasBeenAssigned": false,
+                "hasRandonWeaponBeenAssigned": false
+            }
+        },
+        { //
+            "name": "Stephanie",
+            "lastName": "",
+            "gender": 1
+        },
+        {
+            "name": "The Ghoul",
+            "lastName": "",
+            "gender": 2,
+            "stats": {
+                "stats": [
+                    {
+                        "value": 1,
+                        "mod": 0,
+                        "exp": 0
+                    },
+                    {
+                        "value": 5,
+                        "mod": 0,
+                        "exp": 72000
+                    },
+                    {
+                        "value": 6,
+                        "mod": 2,
+                        "exp": 126000
+                    },
+                    {
+                        "value": 7,
+                        "mod": 2,
+                        "exp": 201600
+                    },
+                    {
+                        "value": 7,
+                        "mod": 0,
+                        "exp": 201600
+                    },
+                    {
+                        "value": 4,
+                        "mod": 1,
+                        "exp": 36000
+                    },
+                    {
+                        "value": 7,
+                        "mod": 0,
+                        "exp": 201600
+                    },
+                    {
+                        "value": 4,
+                        "mod": 2,
+                        "exp": 36000
+                    }
+                ]
+            },
+            "skinColor": 4288514187,
+            "hairColor": 4293584017,
+            "outfitColor": 4294967295,
+            "uniqueData": "L_Cooper",
+            "faceMask": "ghoul_face",
+            "equipedOutfit": {
+                "id": "RottedDuster",
+                "type": "Outfit",
+                "hasBeenAssigned": false,
+                "hasRandonWeaponBeenAssigned": false
+            },
+            "equipedWeapon": {
+                "id": "MaresLeg",
+                "type": "Weapon",
+                "hasBeenAssigned": false,
+                "hasRandonWeaponBeenAssigned": false
+            }
+        },
+        {
+            "name": "The",
+            "lastName": "Ghoul (New Vegas",
+            "gender": 2,
+            "stats": {
+                "stats": [
+                    {
+                        "value": 1,
+                        "mod": 0,
+                        "exp": 0
+                    },
+                    {
+                        "value": 5,
+                        "mod": 0,
+                        "exp": 72000
+                    },
+                    {
+                        "value": 6,
+                        "mod": 0,
+                        "exp": 126000
+                    },
+                    {
+                        "value": 7,
+                        "mod": 0,
+                        "exp": 201600
+                    },
+                    {
+                        "value": 7,
+                        "mod": 2,
+                        "exp": 201600
+                    },
+                    {
+                        "value": 4,
+                        "mod": 0,
+                        "exp": 36000
+                    },
+                    {
+                        "value": 7,
+                        "mod": 2,
+                        "exp": 201600
+                    },
+                    {
+                        "value": 4,
+                        "mod": 0,
+                        "exp": 36000
+                    }
+                ]
+            },
+            "skinColor": 4288514187,
+            "hairColor": 4293584017,
+            "outfitColor": 4294967295,
+            "uniqueData": "L_TheGhoulNewVegas",
+            "faceMask": "ghoul_face",
+            "equipedOutfit": {
+                "id": "PrewarCowboy",
+                "type": "Outfit",
+                "hasBeenAssigned": false,
+                "hasRandonWeaponBeenAssigned": false
+            },
+            "equipedWeapon": {
+                "id": "GhoulRevolver",
+                "type": "Weapon",
+                "hasBeenAssigned": false,
+                "hasRandonWeaponBeenAssigned": false
+            }
+        },
+        {
+            "name": "Three",
+            "lastName": "Dog",
+            "gender": 2,
+            "stats": {
+                "stats": [
+                    {
+                        "value": 1,
+                        "mod": 0,
+                        "exp": 0
+                    },
+                    {
+                        "value": 4,
+                        "mod": 0,
+                        "exp": 36000
+                    },
+                    {
+                        "value": 4,
+                        "mod": 2,
+                        "exp": 36000
+                    },
+                    {
+                        "value": 6,
+                        "mod": 0,
+                        "exp": 126000
+                    },
+                    {
+                        "value": 9,
+                        "mod": 5,
+                        "exp": 432000
+                    },
+                    {
+                        "value": 5,
+                        "mod": 0,
+                        "exp": 72000
+                    },
+                    {
+                        "value": 5,
+                        "mod": 0,
+                        "exp": 72000
+                    },
+                    {
+                        "value": 7,
+                        "mod": 0,
+                        "exp": 201600
+                    }
+                ]
+            },
+            "skinColor": 4287524180,
+            "hairColor": 4283651418,
+            "outfitColor": 4294967295,
+            "uniqueData": "L_ThreeDog",
+            "hair": "16",
+            "faceMask": "glasses2_withBeard",
+            "equipedOutfit": {
+                "id": "ThreedogSpecial",
+                "type": "Outfit",
+                "hasBeenAssigned": false,
+                "hasRandonWeaponBeenAssigned": false
+            }
+        },
+        { //
+            "name": "Wilzig",
+            "lastName": "",
+            "gender": 2
+        },
+        {
+            "name": "76 Overseer",
+            "lastName": "",
+            "gender": 1,
+            "stats": {
+                "stats": [
+                    {
+                        "value": 1,
+                        "mod": 0,
+                        "exp": 0
+                    },
+                    {
+                        "value": 4,
+                        "mod": 0,
+                        "exp": 36000
+                    },
+                    {
+                        "value": 5,
+                        "mod": 5,
+                        "exp": 72000
+                    },
+                    {
+                        "value": 7,
+                        "mod": 0,
+                        "exp": 201600
+                    },
+                    {
+                        "value": 8,
+                        "mod": 0,
+                        "exp": 302400
+                    },
+                    {
+                        "value": 6,
+                        "mod": 0,
+                        "exp": 126000
+                    },
+                    {
+                        "value": 5,
+                        "mod": 0,
+                        "exp": 72000
+                    },
+                    {
+                        "value": 5,
+                        "mod": 0,
+                        "exp": 72000
+                    }
+                ]
+            },
+            "skinColor": 4294364076,
+            "hairColor": 4290888129,
+            "outfitColor": 4294967295,
+            "uniqueData": "L_Vault76Overseer",
+            "hair": "18",
+            "faceMask": "glasses4",
+            "equipedOutfit": {
+                "id": "UtilityJumpsuit_Sturdy",
+                "type": "Outfit",
+                "hasBeenAssigned": false,
+                "hasRandonWeaponBeenAssigned": false
+            },
+            "equipedWeapon": {
+                "id": "MountainMomma",
+                "type": "Weapon",
+                "hasBeenAssigned": false,
+                "hasRandonWeaponBeenAssigned": false
+            }
+        }
+    ]
+}

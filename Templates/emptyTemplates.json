@@ -1,0 +1,105 @@
+{
+    "Room": {
+        "emergencyDone": false,
+        "type": "Filled",
+        "class": "Filled",
+        "mergeLevel": 1,
+        "row": 2,
+        "col": 25,
+        "power": true,
+        "roomHealth": {
+            "damageValue": 0,
+            "initialValue": 0
+        },
+        "mrHandyList": [],
+        "rushTask": -1,
+        "level": 1,
+        "dwellers": [],
+        "deadDwellers": [],
+        "currentStateName": "Idle",
+        "currentState": {},
+        "deserializeID": 66,
+        "assignedDecoration": "",
+        "roomVisibility": false,
+        "roomOutline": false,
+        "withHole": false
+    },
+    "Fist": {
+        "equipedWeapon": {
+            "id": "Fist",
+            "type": "Weapon",
+            "hasBeenAssigned": false,
+            "hasRandonWeaponBeenAssigned": false
+        }
+    },
+    "LegendaryInfo": {
+        "serializeId": 0,
+        "name": "firstName",
+        "lastName": "lastName",
+        "happiness": {
+            "happinessValue": 100
+        },
+        "health": {
+            "healthValue": 644,
+            "radiationValue": 0,
+            "permaDeath": false,
+            "lastLevelUpdated": 50,
+            "maxHealth": 644
+        },
+        "experience": {
+            "experienceValue": 2916000,
+            "currentLevel": 50,
+            "storage": 0,
+            "accum": 0,
+            "needLvUp": false,
+            "wastelandExperience": 0
+        },
+        "relations": {
+            "relations": [],
+            "partner": -1,
+            "lastPartner": -1,
+            "ascendants": [
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
+            ]
+        },
+        "gender": 2,
+        "stats": {},
+        "pregnant": false,
+        "babyReady": false,
+        "assigned": false,
+        "sawIncident": false,
+        "WillGoToWasteland": false,
+        "WillBeEvicted": false,
+        "IsEvictedWaitingForFollowers": false,
+        "skinColor": 0,
+        "hairColor": 0,
+        "outfitColor": 0,
+        "pendingExperienceReward": 0,
+        "uniqueData": "L_NameHere",
+        "hair": "0",
+        "faceMask": "",
+        "equipedOutfit": {
+            "id": "OutfitHere",
+            "type": "Outfit",
+            "hasBeenAssigned": false,
+            "hasRandonWeaponBeenAssigned": false
+        },
+        "equipedWeapon": {
+            "id": "Fist",
+            "type": "Weapon",
+            "hasBeenAssigned": false,
+            "hasRandonWeaponBeenAssigned": false
+        },
+        "savedRoom": -1,
+        "lastChildBorn": -1,
+        "rarity": "Legendary",
+        "deathTime": -1,
+        "daysOnWasteland": 0,
+        "hoursOnWasteland": 0
+    }
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="roomColors.css">
+</head>
+
+<body>
+    <script src="readInfo.js"></script>
+    <script src="calculations.js"></script>
+    <script src="display.js"></script>
+
+    <button onclick="reverseParents()">Parent Testiiiiing</button>
+
+    <div>
+        Hi! This is a save editor for Fallout Shelter! It's a bit barebones atm, but I hope to flesh it out with more
+        features as I learn more about FoS's save data
+    </div>
+    <input type="text" id="fileName">
+    <a href="fileDecryptor.html">Decryptor</a><button onclick="clearAll()">Clear All</button>
+    <button onclick="showDwellers()">Dwellers</button><button onclick="clearDwellers()">Clear Dwellers</button>
+    <button onclick="showVault()">Vault Map</button><button onclick="clearVault()">Clear Map</button>
+    <button onclick="showWSGData('outfits')">Outfits</button>
+    <button onclick="showWSGData('weapons')">Weapons</button>
+    <div id="main_reader">
+        <table id="dwellers">
+            <tr>
+                <th>Dweller</th>
+                <th>Gender</th>
+                <th>Rarity</th>
+                <th>Unique Data?</th>
+            </tr>
+        </table>
+        <table id="vault_map"></table>
+    </div>
+</body>

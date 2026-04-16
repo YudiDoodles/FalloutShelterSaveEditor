@@ -1,0 +1,128 @@
+#vault_map {
+    td {
+        height: 10px;
+        width: 10px;
+    }
+
+    tr{
+        max-height: 11px !important;
+        height: 11px !important;
+    }
+
+    div {
+        &&:hover {
+            .Tooltip {
+                width: 130px;
+                visibility: visible;
+                padding: 5px 0;
+            }
+        }
+
+        display: inline-block;
+        height: 10px;
+    }
+}
+
+.None {
+    width: 0px;
+}
+
+.Tiny {
+    width: 10px !important;
+}
+
+.Small {
+    width: 30px !important;
+}
+
+.Medium {
+    width: 60px;
+}
+
+.Large {
+    width: 90px;
+}
+
+.Tooltip {
+    visibility: hidden;
+    /* Hidden by default */
+    background-color: black;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+}
+
+.FakeWasteland {
+    background-color: whitesmoke;
+}
+
+.Entrance {
+    background-color: teal;
+}
+
+.Elevator {
+    background-color: orange;
+}
+
+.Rock {
+    background-color: grey;
+}
+
+.Storage {
+    background-color: darkgray;
+}
+
+.Energy2,
+.Water2,
+.Hydroponic,
+.Geothermal,
+.Cafeteria,
+.WaterPlant {
+    background-color: green;
+}
+
+.LivingQuarters {
+    background-color: red;
+}
+
+.ScienceLab {
+    background-color: yellow;
+}
+
+.MedBay {
+    background-color: aqua;
+}
+
+.Gym,
+.Armory,
+.SuperRoom2,
+.Bar,
+.Classroom,
+.Dojo,
+.Casino {
+    background-color: salmon;
+}
+
+.DesignFactory,
+.OutfitFactory,
+.WeaponFactory {
+    background-color: blue;
+}
+
+.Radio {
+    background-color: purple;
+}
+
+.Overseer {
+    background-color: yellowgreen;
+}
+
+.BarberShop {
+    background-color: hotpink;
+}
+
+.NukaCola {
+    background-color: crimson;
+}
