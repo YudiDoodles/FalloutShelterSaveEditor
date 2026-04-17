@@ -23,6 +23,10 @@
     }
 }
 
+.hidden{
+    visibility: hidden;
+}
+
 .None {
     width: 0px;
 }

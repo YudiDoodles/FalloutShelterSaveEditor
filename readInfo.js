@@ -1,5 +1,6 @@
 class VaultData {
-    constructor() {
+    constructor(fileName = 'Toppo', jsonSTR = '') {
+        this.fileName = fileName
         this.full_save = ''
         this.emptyTemplates = ''
         this.dwellers = ''
@@ -7,12 +8,48 @@ class VaultData {
         this.vault_map = ''
         this.wsg_all = ''
 
-        this.loadFile()
+        if (jsonSTR == '') {
+            this.loadFile()
+        } else {
+            this.loadWithJSON(jsonSTR)
+        }
+    }
+
+    async loadWithJSON(jsonSTR) {
+        try {
+            this.full_save = JSON.parse(jsonSTR)
+        } catch (error) {
+            alert("Error: " + error)
+        }
+        this.dwellers = this.full_save.dwellers.dwellers
+        this.dwellers.sort(this.sortID)
+        console.log(this.dwellers)
+
+        this.wsg_all = this.full_save.survivalW
+
+        this.rooms = this.full_save.vault.rooms
+        this.vault_map = new Array(25)
+        for (let i = 0; i <= 25; i++) {
+            this.vault_map[i] = new Array(25)
+        }
+
+        this.rooms.forEach((room) => {
+            this.vault_map[room.row][room.col] = room
+        })
+
+        var rocks = this.full_save.vault.rocks
+        rocks.forEach((rock) => {
+            this.vault_map[rock.r][rock.c] = rock
+        })
+
+        await fetch('Templates/emptyTemplates.json')
+            .then(response => response.json()) // Parse JSON
+            .then(data => this.emptyTemplates = data) // Work with JSON data
+            .catch(error => console.error('Error fetching JSON:', error));
     }
 
     async loadFile() {
         var fileName = ''//document.getElementById("fileName").value
-        console.log(fileName)
         fileName = 'Toppo'
 
         await fetch(`Saves/${fileName}.json`)
@@ -21,7 +58,7 @@ class VaultData {
             .catch(error => console.error('Error fetching JSON:', error));
         this.dwellers = this.full_save.dwellers.dwellers
         this.dwellers.sort(this.sortID)
-        
+
         this.wsg_all = this.full_save.survivalW
 
         this.rooms = this.full_save.vault.rooms
@@ -56,15 +93,15 @@ class VaultData {
         }
     }
 
-    getDwellers(){
+    getDwellers() {
         return this.dwellers
     }
 
-    getVaultMap(){
+    getVaultMap() {
         return this.vault_map
     }
 
-    getEmptyTemplates(){
+    getEmptyTemplates() {
         return this.emptyTemplates
     }
 
