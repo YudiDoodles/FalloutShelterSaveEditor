@@ -39,7 +39,7 @@ function handleFileSelect(evt) {
 
 function initializeButtons() {
     var main_data = document.getElementById("main_data")
-    main_data.classList.remove("hidden")
+    main_data.innerHTML = '<button onclick="clearAll()">Clear All</button><button onclick="showDwellers()">Dwellers</button><button onclick="clearDwellers()">Clear Dwellers</button><button onclick="showVault()">Vault Map</button><button onclick="clearVault()">Clear Map</button><button onclick="showWSGData("outfits")">Outfits</button><button onclick="showWSGData("weapons")">Weapons</button><div id="main_reader"><table id="dwellers"></table><table id="vault_map"></table></div>'
 }
 
 function clearDwellers() {
@@ -65,29 +65,37 @@ function clearAll() {
 
 function showDwellers() {
     try {
-        const dwellers = vaultData.getDwellers()
+        const dwellerMap = reverseParents(vaultData)
         var dweller_table = document.getElementById("dwellers")
-        dweller_table.innerHTML = '<tr><th>Dweller</th><th>Gender</th><th>Rarity</th><th>Unique Data?</th></tr>'
+        dweller_table.innerHTML = '<tr><th>Dweller</th><th>Gender</th><th>Rarity</th><th>Unique Data?</th><th>Gen Depth</th></tr>'
 
-        dwellers.forEach((dweller) => {
+        dwellerMap.forEach((dweller) => {
             var new_row = document.createElement("tr")
 
             var basic = document.createElement("td")
-            basic.innerHTML = `${dweller.serializeId}. ${dweller.name} ${dweller.lastName}`
+            basic.innerHTML = `${dweller.id}. ${dweller.fullName}`
 
             var gender = document.createElement("td")
-            gender.innerHTML = dweller.gender == 1 ? 'Female' : 'Male'
+            gender.innerHTML = dweller.fullDweller.gender == 1 ? 'Female' : 'Male'
 
             var rarity = document.createElement("td")
-            rarity.innerHTML = dweller.rarity
+            rarity.innerHTML = dweller.fullDweller.rarity
 
             var unique = document.createElement("td")
-            unique.innerHTML = dweller.uniqueData
+            unique.innerHTML = dweller.fullDweller.uniqueData
+            
+            var depth = document.createElement("td")
+            depth.innerHTML = dweller.generationDepth
+
+            var children = document.createElement("td")
+            children.innerHTML = dweller.descendants
 
             new_row.appendChild(basic)
             new_row.appendChild(gender)
             new_row.appendChild(rarity)
             new_row.appendChild(unique)
+            new_row.appendChild(depth)
+            new_row.appendChild(children)
             dweller_table.appendChild(new_row)
         })
     } catch (error) {
@@ -153,6 +161,40 @@ function showWSGData(type) {
         elem.innerHTML = wsg_data
         var base = document.getElementById("main_reader")
         base.appendChild(elem)
+    } catch (error) {
+        alert("Error: " + error)
+    }
+}
+
+function showParents() {
+    try {
+        const dwellers = vaultData.getDwellers()
+        const dwellerMap = reverseParents(vaultData)
+
+        var dweller_table = document.getElementById("dwellers")
+        dweller_table.innerHTML = '<tr><th>Dweller</th><th>Gender</th><th>Rarity</th><th>Unique Data?</th></tr>'
+
+        dwellers.forEach((dweller) => {
+            var new_row = document.createElement("tr")
+
+            var basic = document.createElement("td")
+            basic.innerHTML = `${dweller.serializeId}. ${dweller.name} ${dweller.lastName}`
+
+            var gender = document.createElement("td")
+            gender.innerHTML = dweller.gender == 1 ? 'Female' : 'Male'
+
+            var rarity = document.createElement("td")
+            rarity.innerHTML = dweller.rarity
+
+            var unique = document.createElement("td")
+            unique.innerHTML = dweller.uniqueData
+
+            new_row.appendChild(basic)
+            new_row.appendChild(gender)
+            new_row.appendChild(rarity)
+            new_row.appendChild(unique)
+            dweller_table.appendChild(new_row)
+        })
     } catch (error) {
         alert("Error: " + error)
     }
