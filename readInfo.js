@@ -3,6 +3,7 @@ class VaultData {
         this.fileName = fileName
         this.full_save = ''
         this.emptyTemplates = ''
+        this.legendaryDwellers = ''
         this.dwellers = ''
         this.rooms = ''
         this.vault_map = ''
@@ -46,6 +47,11 @@ class VaultData {
             .then(response => response.json()) // Parse JSON
             .then(data => this.emptyTemplates = data) // Work with JSON data
             .catch(error => console.error('Error fetching JSON:', error));
+
+        await fetch('Templates/LegendaryDwellers.json')
+            .then(response => response.json()) // Parse JSON
+            .then(data => this.legendaryDwellers = data) // Work with JSON data
+            .catch(error => console.error('Error fetching JSON:', error));
     }
 
     async loadFile() {
@@ -82,7 +88,6 @@ class VaultData {
             .catch(error => console.error('Error fetching JSON:', error));
     }
 
-
     sortID(dwellera, dwellerb) {
         if (dwellera.serializeId < dwellerb.serializeId) {
             return -1;
@@ -105,6 +110,13 @@ class VaultData {
         return this.emptyTemplates
     }
 
+    getLegendaryDwellers() {
+        return this.legendaryDwellers
+    }
+
+    getFullSave() {
+        return this.full_save
+    }
 
     readSurvivalGuide(type) {
         var data = this.wsg_all[type]

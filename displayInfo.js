@@ -39,7 +39,7 @@ function handleFileSelect(evt) {
 
 function initializeButtons() {
     var main_data = document.getElementById("main_data")
-    main_data.innerHTML = '<button onclick="clearAll()">Clear All</button><button onclick="showDwellers()">Dwellers</button><button onclick="clearDwellers()">Clear Dwellers</button><button onclick="showVault()">Vault Map</button><button onclick="clearVault()">Clear Map</button><button onclick="showWSGData("outfits")">Outfits</button><button onclick="showWSGData("weapons")">Weapons</button><div id="main_reader"><table id="dwellers"></table><table id="vault_map"></table></div>'
+    main_data.innerHTML = '<button onclick="clearAll()">Clear All</button><button onclick="showDwellers()">Dwellers</button><button onclick="clearDwellers()">Clear Dwellers</button><button onclick="showVault()">Vault Map</button><button onclick="clearVault()">Clear Map</button><button onclick="showWSGData(\'outfits\')">Outfits</button><button onclick="showWSGData(\'weapons\')">Weapons</button><div id="main_reader"><table id="dwellers"></table><table id="vault_map"></table></div>'
 }
 
 function clearDwellers() {
@@ -111,7 +111,7 @@ function showVault() {
         for (let i = 0; i <= 25; i++) {
             var newrow = document.createElement("tr")
             for (let j = 0; j <= 25; j++) {
-                console.log(vault_map[i][j])
+                //console.log(vault_map[i][j])
                 var newelem = document.createElement("div")
                 if (vault_map[i][j] != null) {
                     if (vault_map[i][j].hasOwnProperty("r")) {

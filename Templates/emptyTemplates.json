@@ -1,4 +1,265 @@
 {
+    "DeliveryMan": {
+        "serializeId": -5,
+        "name": "Delivery Man",
+        "lastName": "",
+        "happiness": {
+            "happinessValue": 52
+        },
+        "health": {
+            "healthValue": 0,
+            "radiationValue": 0,
+            "permaDeath": false,
+            "lastLevelUpdated": 1,
+            "maxHealth": 105
+        },
+        "deathSource": 0,
+        "experience": {
+            "experienceValue": 1433,
+            "currentLevel": 1,
+            "storage": 0,
+            "accum": 0,
+            "needLvUp": false,
+            "wastelandExperience": 0
+        },
+        "relations": {
+            "relations": [],
+            "partner": -1,
+            "lastPartner": -1,
+            "ascendants": [
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
+            ]
+        },
+        "gender": 2,
+        "stats": {
+            "stats": [
+                {
+                    "value": 1,
+                    "mod": 0,
+                    "exp": 0
+                },
+                {
+                    "value": 2,
+                    "mod": 0,
+                    "exp": 3600
+                },
+                {
+                    "value": 2,
+                    "mod": 0,
+                    "exp": 3600
+                },
+                {
+                    "value": 2,
+                    "mod": 0,
+                    "exp": 3600
+                },
+                {
+                    "value": 2,
+                    "mod": 0,
+                    "exp": 3600
+                },
+                {
+                    "value": 1,
+                    "mod": 0,
+                    "exp": 0
+                },
+                {
+                    "value": 1,
+                    "mod": 0,
+                    "exp": 0
+                },
+                {
+                    "value": 2,
+                    "mod": 0,
+                    "exp": 3600
+                }
+            ]
+        },
+        "pregnant": false,
+        "babyReady": false,
+        "assigned": false,
+        "sawIncident": false,
+        "WillGoToWasteland": false,
+        "WillBeEvicted": false,
+        "IsEvictedWaitingForFollowers": false,
+        "skinColor": 4294965710,
+        "hairColor": 4289023020,
+        "outfitColor": 4294967295,
+        "pendingExperienceReward": 0,
+        "hair": "21",
+        "faceMask": "f_hair_11",
+        "equipedOutfit": {
+            "id": "jumpsuit",
+            "type": "Outfit",
+            "hasBeenAssigned": false,
+            "hasRandonWeaponBeenAssigned": false
+        },
+        "equipedWeapon": {
+            "id": "Fist",
+            "type": "Weapon",
+            "hasBeenAssigned": false,
+            "hasRandonWeaponBeenAssigned": false
+        },
+        "savedRoom": -1,
+        "lastChildBorn": -1,
+        "rarity": "Normal",
+        "deathTime": -1,
+        "daysOnWasteland": 0,
+        "hoursOnWasteland": 0
+    },
+    "DeliveryMan_Wasteland": {
+        "dwellers": [
+            -5
+        ],
+        "returnTripDuration": 50,
+        "elapsedTimeAliveExploring": 100,
+        "elapsedReturningTime": 25,
+        "teamIndex": 0,
+        "teamType": "Explore",
+        "status": "ReturningToVault",
+        "logs": [],
+        "missedEncounters": 0,
+        "introMessages": 1,
+        "notificationID": -1,
+        "notificationQuestArrivalID": -1,
+        "isForceReturningToVault": false,
+        "isSkippingTime": false,
+        "isDoingQuest": false,
+        "questSucceeded": false,
+        "questDone": false,
+        "teamEquipment": {
+            "storage": {
+                "resources": {
+                    "Nuka": 0,
+                    "Food": 0,
+                    "Energy": 0,
+                    "Water": 0,
+                    "StimPack": 0,
+                    "RadAway": 0,
+                    "Lunchbox": 0,
+                    "MrHandy": 0,
+                    "PetCarrier": 0,
+                    "CraftedOutfit": 0,
+                    "CraftedWeapon": 0,
+                    "NukaColaQuantum": 0,
+                    "CraftedTheme": 0,
+                    "DummyUltracite": 0,
+                    "PokerChip": 0
+                },
+                "bonus": {
+                    "Nuka": 0,
+                    "Food": 0,
+                    "Energy": 0,
+                    "Water": 0,
+                    "StimPack": 0,
+                    "RadAway": 0,
+                    "Lunchbox": 0,
+                    "MrHandy": 0,
+                    "PetCarrier": 0,
+                    "CraftedOutfit": 0,
+                    "CraftedWeapon": 0,
+                    "NukaColaQuantum": 0,
+                    "CraftedTheme": 0,
+                    "DummyUltracite": 0,
+                    "PokerChip": 0
+                }
+            },
+            "inventory": {
+                "items": []
+            },
+            "dwellers": [],
+            "mrHandyList": [],
+            "questClues": [],
+            "collectedThemes": {
+                "themeList": []
+            }
+        },
+        "questteamQuestSeed": -1,
+        "retryCount": 0,
+        "questOverallPerformance": {
+            "numberCombatsWon": 0,
+            "numberCriticalHitsPerformed": 0,
+            "numberPerfectCriticalHitsPerformed": 0,
+            "numberContainersCollected": 0,
+            "numberCapsCollected": 0,
+            "numberLevelsGained": 0,
+            "numberLevelsGainedWithBonus": 0,
+            "numberOfStimpaksUsed": 0,
+            "numberOfEnemiesKilled": 0,
+            "numberOfWeaponsCollected": 0,
+            "numberOfOutfitsCollected": 0
+        },
+        "actors": [],
+        "initialItems": [
+            {
+                "initWeapon": "Fist",
+                "initOutfit": "jumpsuit",
+                "initPet": ""
+            }
+        ],
+        "postQuestStimpakDifference": 0,
+        "postQuestRadawayDifference": 0,
+        "initialRadDamage": [
+            0
+        ]
+    },
+    "SPECIAL_Exp": [
+        {
+            "value": 1,
+            "mod": 0,
+            "exp": 0
+        },
+        {
+            "value": 2,
+            "mod": 4,
+            "exp": 3600
+        },
+        {
+            "value": 3,
+            "mod": 0,
+            "exp": 14400
+        },
+        {
+            "value": 4,
+            "mod": 0,
+            "exp": 36000
+        },
+        {
+            "value": 5,
+            "mod": 0,
+            "exp": 72000
+        },
+        {
+            "value": 6,
+            "mod": 0,
+            "exp": 126000
+        },
+        {
+            "value": 7,
+            "mod": 0,
+            "exp": 201600
+        },
+        {
+            "value": 8,
+            "mod": 0,
+            "exp": 302400
+        },
+        {
+            "value": 9,
+            "mod": 0,
+            "exp": 432000
+        },
+        {
+            "value": 10,
+            "mod": 0,
+            "exp": 595733.6
+        }
+    ],
     "Room": {
         "emergencyDone": false,
         "type": "Filled",
@@ -33,73 +294,20 @@
         }
     },
     "LegendaryInfo": {
-        "serializeId": 0,
-        "name": "firstName",
-        "lastName": "lastName",
-        "happiness": {
-            "happinessValue": 100
-        },
-        "health": {
-            "healthValue": 644,
-            "radiationValue": 0,
-            "permaDeath": false,
-            "lastLevelUpdated": 50,
-            "maxHealth": 644
-        },
-        "experience": {
-            "experienceValue": 2916000,
-            "currentLevel": 50,
-            "storage": 0,
-            "accum": 0,
-            "needLvUp": false,
-            "wastelandExperience": 0
-        },
-        "relations": {
-            "relations": [],
-            "partner": -1,
-            "lastPartner": -1,
-            "ascendants": [
-                -1,
-                -1,
-                -1,
-                -1,
-                -1,
-                -1
-            ]
-        },
-        "gender": 2,
-        "stats": {},
-        "pregnant": false,
-        "babyReady": false,
-        "assigned": false,
-        "sawIncident": false,
-        "WillGoToWasteland": false,
-        "WillBeEvicted": false,
-        "IsEvictedWaitingForFollowers": false,
-        "skinColor": 0,
-        "hairColor": 0,
-        "outfitColor": 0,
-        "pendingExperienceReward": 0,
-        "uniqueData": "L_NameHere",
-        "hair": "0",
-        "faceMask": "",
-        "equipedOutfit": {
-            "id": "OutfitHere",
-            "type": "Outfit",
-            "hasBeenAssigned": false,
-            "hasRandonWeaponBeenAssigned": false
-        },
-        "equipedWeapon": {
-            "id": "Fist",
-            "type": "Weapon",
-            "hasBeenAssigned": false,
-            "hasRandonWeaponBeenAssigned": false
-        },
-        "savedRoom": -1,
-        "lastChildBorn": -1,
-        "rarity": "Legendary",
-        "deathTime": -1,
-        "daysOnWasteland": 0,
-        "hoursOnWasteland": 0
+        "DwellerId": "L_MissingID",
+        "DwellerExtraData": {
+            "Gender": 1,
+            "Rarity": 3,
+            "LastName": "LastName",
+            "Name": "FirstName",
+            "SkinColor": 0,
+            "FaceType": 0,
+            "HairColor": 0,
+            "HairIndex": 0,
+            "FaceMaskIndex": 0,
+            "HandPoseType": 0,
+            "OutfitId": "",
+            "WeaponId": ""
+        }
     }
 }
