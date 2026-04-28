@@ -39,10 +39,30 @@ function handleFileSelect(evt) {
 
 function initializeButtons() {
     var main_data = document.getElementById("main_data")
-    main_data.innerHTML = '<button onclick="displayAddLegendary()">Add Legendary (Old Longfellow)</button>'
+    main_data.innerHTML = '<button onclick="displayAddLegendary()">Add Selected Legendaries</button>'
+    var legendaryDwellers = vaultData.getLegendaryDwellers()
+    var dwellerList = document.createElement("ul")
+
+    legendaryDwellers.dwellers.forEach((dweller) => {
+        var currDweller = document.createElement("li")
+        currDweller.innerHTML = dweller.Label
+        if (dweller.DwellerId != "UNKNOWN") {
+            var checkbox = document.createElement("input")
+            checkbox.type = "checkbox"
+            checkbox.id = dweller.Name
+            checkbox.classList.add("dwellerCheck")
+            currDweller.appendChild(checkbox)
+        } else {
+            currDweller.innerHTML = `${dweller.Label} is currently unimplemented, check back later!`
+        }
+        dwellerList.appendChild(currDweller)
+    })
+    main_data.appendChild(dwellerList)
 }
 
-function displayAddLegendary(){
-    var updatedData = addLegendary(vaultData)
-    alert("Added legendary!")
+function displayAddLegendary() {
+    //var updatedData = addLegendary(vaultData)
+
+    addManyLegendary(vaultData)
+    alert("Added legendaries!")
 }
